@@ -6,6 +6,7 @@ body {
 }
 
  header{
+    background-image: none;
     background-color: #ffffff;
     border-color: #cccccc;
   }
@@ -54,4 +55,10 @@ p {
     padding: 200px 10px 20px 10px;
     color: #FFFFFF;
     text-decoration: none; 
+}
+
+.content {
+    background-color: #ffffff;
+    width: 960px;
+    
 }
