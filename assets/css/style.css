@@ -1,24 +1,33 @@
 body {
-    background-image: url("../images/background.png");
+    
     background-color: #ffffff;
     border-color: #dddddd;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
- header{
+ header {
     background-image: none;
     background-color: #ffffff;
     border-color: #cccccc;
-  }
+    margin: auto;
+    overflow: auto;
+    clear: both;
+    width: 960px;
+    height: auto;
+       }
 
   .header_nav {
       float: right;
+      
+    
   }
 
 footer {
     
     background-color: #666666;
     text-align: center;
+    color: #FFF;
+    border-top: 5px solid #dddddd;
    
 }
 
@@ -26,13 +35,19 @@ h1 {
     background-color: #4aaaa5;
     color: white;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    width: 300px;
+    float:left;
+    padding: 10px;
+    margin: 0px;
+    
+            
 }
 
 
 h2 {
     color:#4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #dddddd;
 }
 
 
@@ -41,24 +56,57 @@ p {
 }
 
 .header_links {
-    margin: 5px;
+    
+    display: inline-block;
+    padding: 20px 10px 5px 10px;
+    color:#777777;
+    text-decoration: none;
+    
+   
 }
 
-.hangman {
-    background-image: url("../images/cats.jpg");
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    display: block;
-    height: 200px;
-    width: 200px;
-    background-repeat: no-repeat;
-    text-align: center;
-    padding: 200px 10px 20px 10px;
-    color: #FFFFFF;
-    text-decoration: none; 
-}
+
+
+.content-background {
+    background-image: url("../images/background.png");
+    border-top: 2px solid #dddddd;
+    padding: 20px; 50px 50px 50px;
+         }
 
 .content {
+
     background-color: #ffffff;
+    border: 1px solid #e9dbdb;
     width: 960px;
+    padding: 15px;
+    margin: auto;
+    
     
 }
+
+.first_pic {
+    float:left;
+    padding:    0px 20px 0px 20px;
+    }
+
+   
+    .portfolio_item {
+        background-image: url("../images/cats.jpg");
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        background-repeat: no-repeat;
+        margin: 15px;
+        height: 200px;
+        width: 250px;
+        border-width: 1px;
+    }
+
+ .portfolio_item a {
+        background-color: #4aaaa5;
+        color: white;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        margin: 0px;
+        text-decoration: none;
+        width: 250px;
+        text-align: center;
+    }
+    
