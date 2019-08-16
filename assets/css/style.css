@@ -17,9 +17,7 @@ body {
        }
 
   .header_nav {
-      float: right;
-      
-    
+      float: right;    
   }
 
 footer {
@@ -42,14 +40,12 @@ h1 {
             
 }
 
-
 h2 {
     color:#4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
     padding-bottom: 20px;
     border-bottom: 2px solid #dddddd;
 }
-
 
 p {
     color:#777777;
@@ -64,7 +60,6 @@ p {
     
    
 }
-
 
 
 .content-background {
@@ -90,14 +85,15 @@ p {
     }
 
    
-    .portfolio_item {
-        background-image: url("../images/cats.jpg");
-        font-family: 'Georgia', Times, Times New Roman, serif;
-        background-repeat: no-repeat;
-        margin: 15px;
-        height: 200px;
-        width: 250px;
-        border-width: 1px;
+ .portfolio_item {
+    background-image: url("../images/cats.jpg");
+    background-repeat: no-repeat;
+    margin: 15px;
+    height: 200px;
+    width: 250px;
+    border-width: 1px;
+    display: inline-block;
+    text-align: center;
     }
 
  .portfolio_item a {
@@ -106,7 +102,11 @@ p {
         font-family: 'Georgia', Times, Times New Roman, serif;
         margin: 0px;
         text-decoration: none;
+        display: inline-block;
+        height: 30px;
         width: 250px;
-        text-align: center;
-    }
+        margin-top: 140px;
+        padding-top: 15px;
+        
+            }
     
