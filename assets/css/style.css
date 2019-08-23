@@ -17,7 +17,8 @@ body {
        }
 
   .header_nav {
-      float: right;    
+      float: right; 
+         
   }
 
 footer {
@@ -106,7 +107,7 @@ p {
         height: 30px;
         width: 250px;
         margin-top: 140px;
-        padding-top: 15px;
+        padding-top: 2px;
         
             }
     
